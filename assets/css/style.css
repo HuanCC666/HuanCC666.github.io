@@ -100,6 +100,28 @@ code,pre{
 }
 pre{padding:0.75rem;overflow:auto}
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.header-text {
+  flex: 1;
+}
+
+.header-photo {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.header-photo img {
+  width: 96px;
+  height: auto;
+  border-radius: 12px;
+}
+
 @media (max-width: 600px) {
   .header {
     flex-direction: column;
