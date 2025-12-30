@@ -100,29 +100,13 @@ code,pre{
 }
 pre{padding:0.75rem;overflow:auto}
 
-@media (max-width:480px){
-  .gallery{gap:8px;grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
-  .gallery figcaption{font-size:0.85rem}
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-photo {
+    margin-top: 1rem;
+  }
 }
-
-/* About section layout */
-.about {
-  position: relative;       
-  padding-right: 160px;      
-}
-
-
-.about figure.photo {
-  position: absolute;
-  top: 1rem;              
-  right: 1rem;
-  margin: 0;
-  text-align: center;
-}
-
-.about figure.photo img {
-  width: 120px;
-  height: auto;
-  border-radius: 8px;
-}
-
