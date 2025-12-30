@@ -117,9 +117,9 @@ pre{padding:0.75rem;overflow:auto}
 }
 
 .header-photo img {
-  width: 96px;
+  width: 120px;
   height: auto;
-  border-radius: 12px;
+  border-radius: 14px;
 }
 
 @media (max-width: 600px) {
